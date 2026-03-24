@@ -47,6 +47,7 @@ void Paddle::update(Ball &ball)
             ball.setXDir(Ball::X_DIRECTION::LEFT);
             break;
         case PaddleType::AI:
+        case PaddleType::AI1:
         case PaddleType::PLAYER2:
             ball.setXDir(Ball::X_DIRECTION::RIGHT);
             break;
