@@ -1,3 +1,4 @@
+#include <QString>
 #include "game.h"
 
 const QSize Game::RESOLUTION = QSize(800, 600);
